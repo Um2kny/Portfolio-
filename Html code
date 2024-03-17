@@ -1,1 +1,117 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>My Portfolio</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>"I am a web developer with experience in HTML, CSS and more..."</p>
+            <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+            <div id="about"><img src="./images/himanshu.jpg" alt="profile pic" class="main-img">
+            <p>I am a web developer with intermediate knowledge in building responsive websites. I specialize in HTML, CSS, Java and also have some knowledge of Python and MySQL. I have a passion for creating clean, user-friendly websites that help businesses grow and for my learning. Currently I am pursuing Btech in IT field from GGSIPU. I've made multiple projects in which some of them are mentioned below.
+                In my free time, I love tinkering with websites. It allows me to explore new creative avenues and approach design challenges from a different perspective.
+            </p>
+            </div>
+        <div class="service-btn"><a href="#skills" class="btn">My Skills</a></div>
+    </section>
+
+    <section class="services" id="skills">
+            <h2>My Skills</h2>
+            <div class="service-card">
+                <img src="./images/html-css.png" alt="HTML & CSS" class="html-css">
+                <h3 class="title">HTML & CSS</h3>
+                <p class="info">I have extensive experience in building responsive websites using HTML and CSS.</p>
+            </div>
+            <div class="service-card">
+                <img src="./images/java.png" alt="Java" class="java">
+                <h3 class="title">Java</h3>
+                <p class="info">I have experience in Java which I've studied through online internship program by working on projects.</p>
+            </div>
+            <div class="service-card">
+                <img src="./images/python.png" alt="Python">
+                <h3 class="title">Python</h3>
+                <p class="info">I know Python which I learned in school as it's easy to learn with simple syntax.</p>
+            </div>
+            <div class="service-card">
+                <img src="./images/sql.png" alt="SQL">
+                <h3 class="title">SQL</h3>
+                <p class="info">I have knowledge in the management of databases with the help of mySQL.</p>
+            </div>
+    </section>
+
+    <section class="portfolio" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/netflix.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Netflix Clone</h5>
+                      <p class="card-text">Looks exactly same as the original Netflix page with the use of html and css only.</p>
+                      <a href="https://github.com/Um2kny/BHARAT-INTERN-" target="_blank" class="btn btn-primary">Go to code</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/num-game.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Number Game</h5>
+                      <p class="card-text">Guess the random number between 1-100 and your score is based on number of turns.</p>
+                      <a href="https://github.com/Um2kny/CODSOFT/blob/main/Task%201%20(Number%20game)" target="_blank" class="btn btn-primary">Go to code</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./images/feel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Feel Game</h5>
+                      <p class="card-text">Prototype of the project of designing a game for educating children about their rights.</p>
+                      <a href="https://feel-3khag.netlify.app/" target="_blank" class="btn btn-primary">Go to game</a>
+                    </div>
+                  </div>
+            </div>
+    </section>
+
+    <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="#" id="contact">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+    </section>
+
+    <footer class="footer">
+            <p>&copy; 2023 My Portfolio. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/um2kny?igsh=eWg1NTBueWRtcHJz" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/himanshu-kansal-b33505268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" ><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Um2kny" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+    </footer>
+</body>
+</html>
